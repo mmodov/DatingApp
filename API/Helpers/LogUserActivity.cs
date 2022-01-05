@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace API.Helpers
 {
+    // test
     public class LogUserActivity : IAsyncActionFilter
     {
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
